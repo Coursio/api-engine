@@ -1,0 +1,26 @@
+{
+  "name": "api-engine",
+  "version": "0.0.1",
+  "description": "Generate a API from a declarative file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.17.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "graphql": "^0.9.1",
+    "graphql-server-core": "^0.6.0",
+    "graphql-server-module-graphiql": "^0.6.0",
+    "graphql.js": "^0.4.5",
+    "qs": "^6.4.0"
+  },
+  "engines": {
+    "node": ">=7.7.2"
+  }
+}
