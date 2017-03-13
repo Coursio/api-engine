@@ -15,15 +15,14 @@ This is a stub, there is still a lot to do:
   - no error handling
   - no security
   - not connected to actual data sources. Using dummy data only for the moment.
-  - query-only, no mutation 
+  - query-only, no mutation
   - no query parameters, sorting, pagination, etc.
   - lots of basic HTTP features you would assume are not there yet (e.g. CORS, caching, etc.)
   - validation
   - authorization
-  - default values, timestamps, computed values 
-  - aggregation 
+  - default values, timestamps, computed values
+  - aggregation
   - migrations
-  - use Express instead od doing our own HTTP handling
   
 Many of this will be fast to implement, I just need to get to it!
 
@@ -33,7 +32,7 @@ Many of this will be fast to implement, I just need to get to it!
 
 This will start a local server at `localhost:5001`
 
-Use your browser to go to `localhost:5001/graphiql` and start exploring the data. Click on "docs" to see the schema. 
+Use your browser to go to `localhost:5001/graphiql` and start exploring the data. Click on "docs" to see the schema.
 
 # Troubleshooting
 
