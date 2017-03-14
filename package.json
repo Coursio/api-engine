@@ -4,7 +4,7 @@
   "description": "Generate a API from a declarative file",
   "main": "index.js",
   "scripts": {
-    "start": "if [ \"$NODE_ENV\" = \"dev\" ]; then nodemon; else node index.js; fi",
+    "start": "if [ \"$NODE_ENV\" = \"dev\" ]; then ./node_modules/.bin/nodemon; else node index.js; fi",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
