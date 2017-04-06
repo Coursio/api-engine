@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "ajv-keywords": "^2.0.1-beta.0",
+    "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
     "fast-memoize": "^2.2.7",
     "graphql": "^0.9.1",
