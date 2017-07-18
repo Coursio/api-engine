@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "acorn": "^5.0.3",
+    "acorn": "^5.1.1",
     "ajv": "^5.2.2",
     "ajv-keywords": "^2.1.0",
     "body-parser": "^1.17.1",
