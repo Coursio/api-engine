@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Generate a API from a declarative file",
   "main": "index.js",
+  "bin": "cli",
   "scripts": {
     "build": "./scripts/unbuild.sh; npm install; ./scripts/build.sh",
     "unbuild": "./scripts/unbuild.sh",
